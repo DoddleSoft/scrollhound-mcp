@@ -1,0 +1,32 @@
+{
+  "name": "scrollhound",
+  "displayName": "Scrollhound",
+  "version": "1.0.0",
+  "description": "Social research for your AI: read Reddit threads, comment sections, X and LinkedIn posts, and YouTube, TikTok and Instagram transcripts in full, with a link on every quote. Includes skills for voice of customer, comment mining, competitor and short-form teardowns, hooks, LinkedIn, weekly briefs, subreddit checks and brand mentions. Read-only.",
+  "author": {
+    "name": "Scrollhound",
+    "email": "hello@scrollhound.com",
+    "url": "https://scrollhound.com"
+  },
+  "homepage": "https://scrollhound.com",
+  "repository": "https://github.com/DoddleSoft/scrollhound-mcp",
+  "license": "MIT",
+  "keywords": [
+    "social-research",
+    "reddit",
+    "youtube",
+    "tiktok",
+    "instagram",
+    "linkedin",
+    "x",
+    "twitter",
+    "transcripts",
+    "social-listening",
+    "marketing"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://scrollhound.com/docs/",
+  "supportUrl": "https://scrollhound.com/docs/",
+  "privacyPolicyUrl": "https://scrollhound.com/privacy/",
+  "termsOfServiceUrl": "https://scrollhound.com/terms/"
+}

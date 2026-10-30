@@ -1,0 +1,15 @@
+{
+  "name": "scrollhound",
+  "description": "Scrollhound for Claude Code and Cowork: the connector plus research skills.",
+  "owner": {
+    "name": "Scrollhound",
+    "email": "hello@scrollhound.com"
+  },
+  "plugins": [
+    {
+      "name": "scrollhound",
+      "source": "./",
+      "description": "Read Reddit, X, YouTube, TikTok, Instagram, LinkedIn and Hacker News in full, with sources, plus research skills for marketers and creators."
+    }
+  ]
+}

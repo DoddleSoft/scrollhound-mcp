@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.scrollhound/scrollhound",
+  "title": "Scrollhound",
+  "description": "Read Reddit, X, YouTube, TikTok, Instagram, LinkedIn and Hacker News in full, with sources.",
+  "version": "1.0.0",
+  "websiteUrl": "https://scrollhound.com",
+  "repository": {
+    "url": "https://github.com/DoddleSoft/scrollhound-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://scrollhound.com/logo.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    },
+    {
+      "src": "https://scrollhound.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.scrollhound.com/mcp"
+    }
+  ]
+}

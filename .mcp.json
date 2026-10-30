@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "scrollhound": {
+      "type": "http",
+      "url": "https://api.scrollhound.com/mcp"
+    }
+  }
+}

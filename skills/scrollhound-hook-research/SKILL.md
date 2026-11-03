@@ -2,7 +2,7 @@
 name: scrollhound-hook-research
 description: "Hook research: collect a creator's best-performing opening lines on X or YouTube, group them by hook type and explain what each promises. Use when the user wants hook examples, wants to write better first lines, or asks which openings work for a creator or niche. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.0.0"
+  scrollhound-version: "1.1.0"
 ---
 
 # Hook research

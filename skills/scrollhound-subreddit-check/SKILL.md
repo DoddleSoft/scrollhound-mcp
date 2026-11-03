@@ -1,8 +1,8 @@
 ---
 name: scrollhound-subreddit-check
-description: "Check a subreddit before posting: read its full rules in the moderators' words and its top posts this month, then check the user's draft against them. Use when the user wants to post or promote on Reddit, asks whether a post is allowed, wants to avoid removal or bans, or asks what gets traction in a subreddit. Uses Scrollhound."
+description: "Check a subreddit before posting: read its full rules in the moderators' words, its posting requirements (post types, flair, title and link rules) and wiki, and its top posts this month, then check the user's draft against them. Use when the user wants to post or promote on Reddit, asks whether a post is allowed, wants to avoid removal or bans, or asks what gets traction in a subreddit. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.0.0"
+  scrollhound-version: "1.1.0"
 ---
 
 # Check a subreddit before you post
@@ -21,17 +21,23 @@ other AI apps), or the **`scrollhound` CLI** in a terminal. Each step names both
 
 ## Steps
 
-1. **Read the subreddit's description and full rules.**
+1. **Read the subreddit's description, posting requirements and full rules.** The requirements
+   say which post types are allowed, whether a flair is required (and which ones exist), and any
+   title or link rules.
    - Connector: `reddit_get_subreddit` with `name` · CLI: `scrollhound reddit sub <name>`
-2. **Read the top posts of the month** to see what gets traction.
+2. **Read the wiki page the rules point to**, if any (many subreddits keep the full rules or a
+   self-promotion policy there).
+   - Connector: `read_url` with `https://www.reddit.com/r/<name>/wiki/<page>`
+   - CLI: `scrollhound read reddit.com/r/<name>/wiki/<page>`
+3. **Read the top posts of the month** to see what gets traction.
    - Connector: `reddit_list_posts` with `subreddit`, `sort: "top"`, `time: "month"`
    - CLI: `scrollhound reddit posts <name> --sort top --time month`
-3. **Check the draft** against each relevant rule: self-promotion, links, flair, format, required
-   disclosures, posting days or megathreads.
+4. **Check the draft** against each relevant rule and requirement: post type, flair, title
+   format, self-promotion, links, required disclosures, posting days or megathreads.
 
 ## What to deliver
 
-1. The rules that matter for this post, quoted exactly.
+1. The rules and requirements that matter for this post, quoted exactly (and the flair to pick).
 2. A verdict: fits, fits with changes, or don't post here (and why).
 3. If it needs changes: the specific edits, or a rewritten draft that follows the rules.
 4. What gets traction this month (formats and topics of the top posts, with links).

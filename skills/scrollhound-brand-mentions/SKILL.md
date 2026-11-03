@@ -1,8 +1,8 @@
 ---
 name: scrollhound-brand-mentions
-description: "Brand mentions digest: what people said about a brand, product or competitor in a recent window across X, Reddit, YouTube, TikTok, LinkedIn and Hacker News, sorted into praise, complaints, questions and comparisons, with quotes and links. Use when the user asks what people are saying about a brand, wants social listening, brand monitoring, sentiment, a mentions report, or a competitor's reputation. Uses Scrollhound."
+description: "Brand mentions digest: what people said about a brand, product or competitor in the past week across Reddit comments, X posts and mentions, Instagram tagged posts, TikTok and YouTube, sorted into complaints, praise, questions and comparisons, with quotes and links. Use when the user asks what people are saying about a brand, wants social listening, brand monitoring, sentiment, a mentions report, UGC or creator mentions, or a competitor's reputation. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.0.0"
+  scrollhound-version: "1.1.0"
 ---
 
 # Brand mentions digest
@@ -16,26 +16,40 @@ other AI apps), or the **`scrollhound` CLI** in a terminal. Each step names both
 
 ## What you need
 
-- **The brand or product name**, plus common misspellings or handles if relevant.
+- **The brand or product name**, plus common misspellings if relevant.
+- **Its handles** on X and Instagram, if the user knows them. If not, find them in step 1; don't
+  guess a handle from the name.
 - **The window**: past 7 days by default, or 30 days.
-- **Platforms**, if the user wants to narrow it (default: X, Reddit and YouTube; add TikTok,
-  LinkedIn or Hacker News when the brand's audience is there).
+- **Platforms**, if the user wants to narrow it (default: Reddit, X, Instagram, TikTok and
+  YouTube; add LinkedIn or Hacker News when the brand's audience is there).
 
 ## Steps
 
-1. **X**: Connector `x_search_posts` (`q`, `since: "7d"`, `sort: "latest"`, `limit: 50`) · CLI
-   `scrollhound x search "<brand>" --since 7d --sort latest --limit 50`. Exclude the brand's own
-   posts with `-from:<handle>` in the query.
-2. **Reddit**: Connector `reddit_search` (`q`, `sort: "new"`, `time: "week"`) · CLI
-   `scrollhound reddit search "<brand>" --sort new --time week`. Open the threads with real
-   discussion (`reddit_get_post` / `scrollhound reddit post <url> --comments 100`).
-3. **YouTube**: Connector `yt_search` (`q`, `since: "7d"`) · CLI
-   `scrollhound yt search "<brand>" --since 7d`. For a review video, read its comments.
-4. **Optional**: TikTok (`tiktok_search` / `scrollhound tiktok search "<brand>"`), LinkedIn
-   (`linkedin_search_posts` with `within: "week"` /
-   `scrollhound linkedin search "<brand>" --within week`), Hacker News (`hn_search` /
+1. **Find the accounts** when you don't have the handles: Connector `find_accounts` (`q`,
+   `platform: "x"` or `"instagram"`) · CLI `scrollhound find accounts "<brand>" --platform x`.
+   Pick the verified or obviously official account.
+2. **Reddit comments**: Connector `reddit_search` (`q`, `in: "comments"`, `time: "week"`) · CLI
+   `scrollhound reddit search "<brand>" --in comments --time week`. Then the posts with real
+   discussion: `reddit_search` (`q`, `sort: "top"`, `time: "week"`) /
+   `scrollhound reddit search "<brand>" --sort top --time week`, and open the busiest with
+   `reddit_get_post` (`comments: 100`) / `scrollhound reddit post <url> --comments 100`.
+3. **X**: Connector `x_search_posts` (`q: "<brand> -from:<handle>"`, `since: "7d"`,
+   `sort: "latest"`, `limit: 50`) · CLI
+   `scrollhound x search "<brand> -from:<handle>" --since 7d --sort latest --limit 50`. Then
+   mentions of the account: `x_get_user_posts` (`handle`, `kind: "mentions"`, `limit: 50`) /
+   `scrollhound x posts <@handle> --mentions --limit 50`.
+4. **Instagram tagged posts** (UGC and creator mentions): Connector `ig_get_user_posts`
+   (`handle`, `tab: "tagged"`) · CLI `scrollhound ig posts <@handle> --tab tagged`.
+5. **TikTok and YouTube**: Connector `tiktok_search` (`q`) and `yt_search` (`q`, `since: "7d"`) ·
+   CLI `scrollhound tiktok search "<brand>"`, `scrollhound yt search "<brand>" --since 7d`. Read
+   the comments on the two most viewed videos (`tiktok_get_comments` / `yt_get_comments`,
+   `limit: 50`; CLI `scrollhound tiktok comments <video> --limit 50`,
+   `scrollhound yt comments <video> --limit 50`).
+6. **Optional**: LinkedIn (`linkedin_search_posts` with `within: "week"` /
+   `scrollhound linkedin search "<brand>" --within week`), Threads (`threads_search` with
+   `since: "7d"` / `scrollhound threads search "<brand>" --since 7d`), Hacker News (`hn_search` /
    `scrollhound hn search "<brand>"`).
-5. **Drop false matches** (another meaning of the name) and the brand's own posts. Tag each real
+7. **Drop false matches** (another meaning of the name) and the brand's own posts. Tag each real
    mention: praise, complaint, question, comparison with a competitor, or news.
 
 ## What to deliver

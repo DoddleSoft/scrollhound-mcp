@@ -2,7 +2,7 @@
 name: scrollhound-weekly-brief
 description: "Weekly niche brief: what a niche talked about in the past 7 days on Reddit, X and YouTube, with the top threads, posts and videos and a link on every point. Use when the user asks what's happening in their niche, for a weekly or Monday briefing, trend or topic ideas for the week, or to set up a recurring research task. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.0.0"
+  scrollhound-version: "1.1.0"
 ---
 
 # Weekly niche brief

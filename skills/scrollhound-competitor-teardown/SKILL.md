@@ -2,7 +2,7 @@
 name: scrollhound-competitor-teardown
 description: "Competitor YouTube channel teardown: list a channel's recent uploads, find the videos that beat its usual views, read their transcripts and break down topics, titles, hooks and structure. Use when the user names a competitor or creator on YouTube and asks why their videos work, what topics break out, or what to learn from their channel. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.0.0"
+  scrollhound-version: "1.1.0"
 ---
 
 # Competitor channel teardown

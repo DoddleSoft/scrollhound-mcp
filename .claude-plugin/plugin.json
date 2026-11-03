@@ -1,8 +1,8 @@
 {
   "name": "scrollhound",
   "displayName": "Scrollhound",
-  "version": "1.0.0",
-  "description": "Social research for your AI: read Reddit threads, comment sections, X and LinkedIn posts, and YouTube, TikTok and Instagram transcripts in full, with a link on every quote. Includes skills for voice of customer, comment mining, competitor and short-form teardowns, hooks, LinkedIn, weekly briefs, subreddit checks and brand mentions. Read-only.",
+  "version": "1.1.0",
+  "description": "Social research for your AI: read Reddit threads, comment sections, X, LinkedIn, Threads, Bluesky and Facebook posts, Pinterest pins, ad libraries, and YouTube, TikTok and Instagram transcripts in full, with a link on every quote. Includes skills for voice of customer, comment mining, competitor and short-form teardowns, hooks, LinkedIn, weekly briefs, subreddit checks, brand mentions, trends in a niche, competitor ads and creator shortlists. Read-only.",
   "author": {
     "name": "Scrollhound",
     "email": "hello@scrollhound.com",

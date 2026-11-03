@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.scrollhound/scrollhound",
   "title": "Scrollhound",
-  "description": "Read Reddit, X, YouTube, TikTok, Instagram, LinkedIn and Hacker News in full, with sources.",
-  "version": "1.0.0",
+  "description": "Read Reddit, X, YouTube, TikTok, Instagram, LinkedIn, Facebook and more in full, with sources.",
+  "version": "1.1.0",
   "websiteUrl": "https://scrollhound.com",
   "repository": {
     "url": "https://github.com/DoddleSoft/scrollhound-mcp",

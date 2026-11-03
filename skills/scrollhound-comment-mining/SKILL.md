@@ -2,7 +2,7 @@
 name: scrollhound-comment-mining
 description: "Mine a comment section for content: the questions people ask, objections, praise and exact phrases worth reusing, from the comments under a YouTube video, TikTok, Instagram Reel, Reddit thread or X post. Use when the user shares a post or video and wants content ideas, FAQ topics, hooks, objections or audience language from its comments. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.0.0"
+  scrollhound-version: "1.1.0"
 ---
 
 # Mine the comments

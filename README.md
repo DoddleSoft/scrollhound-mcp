@@ -19,6 +19,8 @@
 
 ---
 
+**Who it's for.** For social media managers and content strategists who have to know what their market is saying before they make content or ads, Scrollhound is the research connector for Claude and ChatGPT that reads the comments, transcripts and ad libraries on 11 platforms and quotes every source with a link. Unlike listening dashboards and browser agents, it works inside the chat you already use, reads the whole thread, and never posts.
+
 This repository holds what you need to add Scrollhound to an AI app: the connector details, the
 Claude plugin and the research skills. Scrollhound itself is a hosted service; there is no server
 code to run here.
@@ -55,7 +57,7 @@ https://api.scrollhound.com/mcp
 ```
 
 Sign in with your email and a one-time code when your app asks. A new account starts with 100
-free reads, no card needed.
+free reads to use in its first 7 days, no card needed.
 
 | App | How |
 | --- | --- |
@@ -95,6 +97,9 @@ present the result with quotes and links. They work with the connector or with t
 | [Trending in my niche](skills/scrollhound-trending-in-my-niche/SKILL.md) | What's trending on TikTok, Reels and Shorts in a niche, with the hooks |
 | [Competitor ads](skills/scrollhound-competitor-ads/SKILL.md) | A company's Meta, TikTok, Google and LinkedIn ads, by offer and call to action |
 | [Creator shortlist](skills/scrollhound-creator-shortlist/SKILL.md) | Creators in a niche compared on followers, recent views and fit |
+| [Ad swipe file](skills/scrollhound-ad-swipe-file/SKILL.md) | Competitors' longest-running ads across the four ad libraries, the proven ones first |
+| [Halo strategy](skills/scrollhound-halo-strategy/SKILL.md) | A market's pains, fears and desires in its own words, from Reddit, YouTube and TikTok comments |
+| [Monthly messages review](skills/scrollhound-messages-review/SKILL.md) | This month's objections, questions and trending angles, and what competitors' ads say now |
 
 **Install them**
 
@@ -106,7 +111,7 @@ present the result with quotes and links. They work with the connector or with t
 
 ## Pricing
 
-100 free reads to start, then monthly plans or pay-as-you-go reads. See
+100 free reads for your first 7 days, then monthly plans or pay-as-you-go reads. See
 [scrollhound.com/#pricing](https://scrollhound.com/#pricing).
 
 ## Privacy and support

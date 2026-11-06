@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.scrollhound/scrollhound",
   "title": "Scrollhound",
-  "description": "Read Reddit, X, YouTube, TikTok, Instagram, LinkedIn, Facebook and more in full, with sources.",
+  "description": "Your AI reads comments, threads, transcripts and ads on 11 platforms, and links every quote.",
   "version": "1.1.0",
   "websiteUrl": "https://scrollhound.com",
   "repository": {
@@ -13,12 +13,16 @@
     {
       "src": "https://scrollhound.com/logo.png",
       "mimeType": "image/png",
-      "sizes": ["512x512"]
+      "sizes": [
+        "512x512"
+      ]
     },
     {
       "src": "https://scrollhound.com/favicon.svg",
       "mimeType": "image/svg+xml",
-      "sizes": ["any"]
+      "sizes": [
+        "any"
+      ]
     }
   ],
   "remotes": [

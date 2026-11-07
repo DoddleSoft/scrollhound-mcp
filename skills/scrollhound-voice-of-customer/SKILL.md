@@ -2,7 +2,7 @@
 name: scrollhound-voice-of-customer
 description: "Voice-of-customer research from Reddit: find the pains, frustrations and wants people describe about a problem, product or category, in their own words, as a table of pain, exact quote and link. Use when the user asks for customer research, pain points, objections, what people hate or wish for, audience language for copy, or evidence for a client or positioning. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.1.0"
+  scrollhound-version: "1.2.0"
 ---
 
 # Voice of customer from Reddit

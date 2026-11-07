@@ -2,7 +2,7 @@
 name: scrollhound-linkedin-teardown
 description: "LinkedIn teardown: a company's or creator's recent LinkedIn posts ranked by likes and comments, what the best ones have in common, and the ads the company runs in LinkedIn's Ad Library. Use when the user asks what a competitor posts on LinkedIn, which LinkedIn posts land, B2B content benchmarks, or what ads a company is running on LinkedIn. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.1.0"
+  scrollhound-version: "1.2.0"
 ---
 
 # LinkedIn teardown

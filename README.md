@@ -100,6 +100,7 @@ present the result with quotes and links. They work with the connector or with t
 | [Ad swipe file](skills/scrollhound-ad-swipe-file/SKILL.md) | Competitors' longest-running ads across the four ad libraries, the proven ones first |
 | [Halo strategy](skills/scrollhound-halo-strategy/SKILL.md) | A market's pains, fears and desires in its own words, from Reddit, YouTube and TikTok comments |
 | [Monthly messages review](skills/scrollhound-messages-review/SKILL.md) | This month's objections, questions and trending angles, and what competitors' ads say now |
+| [Outlier hunt](skills/scrollhound-outlier-hunt/SKILL.md) | The videos that beat their own channel's median, how they open, and what they share |
 
 **Install them**
 

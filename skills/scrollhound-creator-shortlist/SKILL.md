@@ -2,7 +2,7 @@
 name: scrollhound-creator-shortlist
 description: "Creator shortlist: find creators in a niche on TikTok or Instagram by account search and video search, then compare their followers, median views of recent posts, how often they post about the niche and visible sponsors, optionally with TikTok followers by country (26 credits per creator). Use when the user wants influencers or creators to work with, influencer vetting, a creator list for a campaign, or to check whether a creator's audience is in their market. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.1.0"
+  scrollhound-version: "1.2.0"
 ---
 
 # Creator shortlist

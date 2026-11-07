@@ -2,7 +2,7 @@
 name: scrollhound-subreddit-check
 description: "Check a subreddit before posting: read its full rules in the moderators' words, its posting requirements (post types, flair, title and link rules) and wiki, and its top posts this month, then check the user's draft against them. Use when the user wants to post or promote on Reddit, asks whether a post is allowed, wants to avoid removal or bans, or asks what gets traction in a subreddit. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.1.0"
+  scrollhound-version: "1.2.0"
 ---
 
 # Check a subreddit before you post

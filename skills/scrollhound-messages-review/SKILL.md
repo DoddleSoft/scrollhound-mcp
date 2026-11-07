@@ -2,7 +2,7 @@
 name: scrollhound-messages-review
 description: "Monthly messages review: this month's objections, repeated questions and trending angles for a brand and its competitors from Reddit and video comments, what their ads say now, better-faster-cheaper, gaps no ad answers, and where to release each message (article, plain-text email, Reddit or YouTube answer, landing page). Use when the user plans next month's marketing messages, wants new angles, a messaging review, objections to answer, or a monthly marketing meeting prepared. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.1.0"
+  scrollhound-version: "1.2.0"
 ---
 
 # Monthly messages review

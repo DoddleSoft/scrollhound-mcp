@@ -2,7 +2,7 @@
 name: scrollhound-short-form-teardown
 description: "Short-form video teardown for TikTok and Instagram Reels: list a creator's recent videos with plays, find the ones that beat their median, read the transcripts and break down hook, structure, length and call to action. Use when the user asks why a creator's TikToks or Reels go viral, wants short-form hooks, or wants to model a creator's format. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.1.0"
+  scrollhound-version: "1.2.0"
 ---
 
 # Short-form video teardown

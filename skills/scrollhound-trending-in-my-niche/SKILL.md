@@ -2,7 +2,7 @@
 name: scrollhound-trending-in-my-niche
 description: "Trending in my niche: what's trending on TikTok, Instagram Reels and YouTube Shorts this week, filtered to the user's niche, plus a hashtag search, with the hooks from the top videos' transcripts and ideas to post. Use when the user asks what's trending or going viral in their niche, which formats, sounds or hashtags are working on short-form video, or wants video ideas for this week. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.1.0"
+  scrollhound-version: "1.2.0"
 ---
 
 # Trending in my niche

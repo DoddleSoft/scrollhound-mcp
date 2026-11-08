@@ -2,7 +2,7 @@
 name: scrollhound-outlier-hunt
 description: "Outlier hunt: find the videos that got far more views than their own channel usually does, across several YouTube, TikTok or Instagram accounts, with each video's multiple of the channel median, the outliers' opening lines from their transcripts, and what they share. Use when the user asks for outliers, breakout or viral videos in a niche, what's working for competitors or creators, video ideas to remix, or which hooks and topics beat a channel's average. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.2.0"
+  scrollhound-version: "1.2.1"
 ---
 
 # Outlier hunt: videos that beat their own channel

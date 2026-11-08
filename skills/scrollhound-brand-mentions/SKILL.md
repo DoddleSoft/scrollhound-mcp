@@ -2,7 +2,7 @@
 name: scrollhound-brand-mentions
 description: "Brand mentions digest: what people said about a brand, product or competitor in the past week across Reddit comments, X posts and mentions, Instagram tagged posts, TikTok and YouTube, sorted into complaints, praise, questions and comparisons, with quotes and links. Use when the user asks what people are saying about a brand, wants social listening, brand monitoring, sentiment, a mentions report, UGC or creator mentions, or a competitor's reputation. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.2.0"
+  scrollhound-version: "1.2.1"
 ---
 
 # Brand mentions digest

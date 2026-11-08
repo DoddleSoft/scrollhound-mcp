@@ -2,7 +2,7 @@
 name: scrollhound-competitor-ads
 description: "Competitor ads: every ad a company is running in the Meta (Facebook and Instagram), TikTok, Google and LinkedIn ad libraries, grouped by offer and call to action, with the copy quoted and links. Use when the user asks what ads a competitor runs, wants ad research, creative inspiration, a competitor's messaging or offers, or to see a brand's Facebook, Instagram, TikTok, Google or LinkedIn ads. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.2.0"
+  scrollhound-version: "1.2.1"
 ---
 
 # Competitor ads

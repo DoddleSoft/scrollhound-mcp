@@ -2,7 +2,7 @@
 name: scrollhound-halo-strategy
 description: "Halo strategy customer research: the pains, fears and desires of a market in their own words, from buyers' subreddits and the comments under the top YouTube and TikTok videos for one keyword, with exact quotes, counts, links and buyer signals. Use when the user wants customer research before writing copy or ads, pain points, fears and desires, the Halo strategy, voice of customer across platforms, objections, or the market's own words for headlines. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.2.0"
+  scrollhound-version: "1.2.1"
 ---
 
 # Halo strategy: pains, fears and desires

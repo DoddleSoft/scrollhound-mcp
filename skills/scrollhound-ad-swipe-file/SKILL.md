@@ -2,7 +2,7 @@
 name: scrollhound-ad-swipe-file
 description: "Ad swipe file: competitors' longest-running ads across the Meta (Facebook and Instagram), TikTok, Google and LinkedIn ad libraries, sorted by how long each has run, with the copy quoted, the landing page and links. Use when the user wants a swipe file, winning ads, ads that work, the ads a competitor keeps running, ad inspiration backed by evidence, or to know which competitor messages are proven and which are new tests. Uses Scrollhound."
 metadata:
-  scrollhound-version: "1.2.0"
+  scrollhound-version: "1.2.1"
 ---
 
 # Ad swipe file: competitors' longest-running ads

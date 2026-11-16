@@ -113,7 +113,7 @@ present the result with quotes and links. They work with the connector or with t
 
 ## Pricing
 
-100 free reads for your first 7 days, then monthly plans. See
+100 free reads for your first 7 days, then monthly plans, or reads without a plan at $25 per 1,000. See
 [scrollhound.com/#pricing](https://scrollhound.com/#pricing).
 
 ## Privacy and support

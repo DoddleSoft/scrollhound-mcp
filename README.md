@@ -101,6 +101,7 @@ present the result with quotes and links. They work with the connector or with t
 | [Halo strategy](skills/scrollhound-halo-strategy/SKILL.md) | A market's pains, fears and desires in its own words, from Reddit, YouTube and TikTok comments |
 | [Monthly messages review](skills/scrollhound-messages-review/SKILL.md) | This month's objections, questions and trending angles, and what competitors' ads say now |
 | [Outlier hunt](skills/scrollhound-outlier-hunt/SKILL.md) | The videos that beat their own channel's median, how they open, and what they share |
+| [Awareness map](skills/scrollhound-awareness-map/SKILL.md) | Competitors' ads sorted by stage of awareness: which stage is crowded and which is open |
 
 **Install them**
 
@@ -112,7 +113,7 @@ present the result with quotes and links. They work with the connector or with t
 
 ## Pricing
 
-100 free reads for your first 7 days, then monthly plans or pay-as-you-go reads. See
+100 free reads for your first 7 days, then monthly plans. See
 [scrollhound.com/#pricing](https://scrollhound.com/#pricing).
 
 ## Privacy and support
